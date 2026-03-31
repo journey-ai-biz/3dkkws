@@ -63,6 +63,40 @@ main {
   backdrop-filter: blur(8px);
 }
 
+.social-links {
+  margin: 1.5rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  padding: 0.2rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 40px;
+  border: 1px solid rgba(98, 200, 160, 0.38);
+  padding: 0.45rem 0.8rem;
+  background: rgba(11, 20, 34, 0.7);
+  color: #c1f4d5;
+  box-shadow: 0 4px 12px rgba(30, 90, 70, 0.35);
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+  background: rgba(12, 36, 58, 0.9);
+  color: #f7fdf6;
+}
+
+.social-links .icon {
+  font-size: 1.1rem;
+}
+
 section.card { margin-bottom: 1.25rem; padding: 1.1rem; background: rgba(12, 22, 34, 0.74); border-left: 4px solid #58d68d; border-radius: 12px; }
 
 footer {

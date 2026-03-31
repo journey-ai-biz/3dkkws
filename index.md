@@ -14,3 +14,11 @@ At **3dkaarkhana**, we deliver fast, precise 3D printing and prototyping solutio
 - Engineering-ready design validation and iterative prototyping
 
 [Explore our services]({{ '/services/' | relative_url }})
+
+### Connect with us
+
+<div class="social-links">
+  <a href="https://www.instagram.com/3dkaarkhana" target="_blank" rel="noopener noreferrer"><span class="icon">📸</span>Instagram</a>
+  <a href="https://www.youtube.com/@3dkaarkhaana" target="_blank" rel="noopener noreferrer"><span class="icon">▶️</span>YouTube</a>
+  <a href="https://www.linkedin.com/company/3dkaarkhana" target="_blank" rel="noopener noreferrer"><span class="icon">🔗</span>LinkedIn</a>
+</div>
