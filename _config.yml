@@ -1,0 +1,23 @@
+title: 3dkaarkhana
+email: 3dstuff.contact@gmail.com
+description: "Professional 3D printing and rapid prototyping services for startups, engineering, and creative projects."
+baseurl: ""
+url: ""
+author:
+  name: 3dkaarkhana
+  email: 3dstuff.contact@gmail.com
+
+markdown: kramdown
+theme: minima
+
+enabled_plugins:
+  - jekyll-feed
+
+collections: {}
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
