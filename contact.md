@@ -7,7 +7,7 @@ permalink: /contact/
 
 Thanks for considering 3dkaarkhana for your 3D printing and prototyping needs. We’re here to respond quickly and help bring your concept to life.
 
-- Email: [3dstuff.contact@gmail.com](mailto:3dstuff.contact@gmail.com)
+- Email: [contact@3dkaarkhana.in](mailto:contact@3dkaarkhana.in)
 - Location: Remote / Service available worldwide
 
 ### Request a Quote
