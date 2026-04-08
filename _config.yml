@@ -1,11 +1,11 @@
 title: 3dkaarkhana
-email: 3dstuff.contact@gmail.com
+email: contact@3dkaarkhana.in
 description: "Professional 3D printing and rapid prototyping services for startups, engineering, and creative projects."
-baseurl: "/3dkkws"
+baseurl: ""
 url: "https://journey-ai-biz.github.io"
 author:
   name: 3dkaarkhana
-  email: 3dstuff.contact@gmail.com
+  email: contact@3dkaarkhana.in
 
 markdown: kramdown
 theme: minima
