@@ -1,5 +1,5 @@
 ---
-title: Welcome to 3dkaarkhana
+title: 3Dkaarkhana | High Quality 3D Printing
 ---
 
 ## Reliable 3D Printing & Functional Prototyping
