@@ -4,8 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Professional 3D printing and rapid prototyping services for startups, engineering, and creative projects." />
-  <title>Welcome to 3dkaarkhana</title>
+  <title>3Dkaarkhana | High Quality 3D Printing</title>
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 <body>
   <header class="page-header">
@@ -27,16 +29,70 @@
 
 <p>At <strong>3dkaarkhana</strong>, we deliver fast, precise 3D printing and prototyping solutions. Our team is specialized in rapid development, end-use parts, architectural models, and functional prototypes for industrial and consumer products.</p>
 
-<h3 id="why-choose-us">Why Choose Us</h3>
+<div class="side-by-side-container">
+ 
 
-<ul>
-  <li>High accuracy with FDM, SLA, and SLS technologies</li>
-  <li>Quick turnaround with express production options</li>
-  <li>Material options: PLA, PETG, ABS, resin, Nylon, TPU, and composites</li>
-  <li>Engineering-ready design validation and iterative prototyping</li>
-</ul>
+  <div class="text-column">
+  <h3>Why Choose Us</h3>
+  <ul>
+    <li><strong>High accuracy</strong> with FDM, SLA, and SLS technologies</li>
+    <li><strong>Quick turnaround</strong> with express production options</li>
+    <li><strong>Material options:</strong> PLA, PETG, ABS, resin, Nylon, TPU, and composites</li>
+    <li><strong>Engineering-ready</strong> design validation and iterative prototyping</li>
+  </ul>
+  <div>
+      <p><a href="/services/">Explore our services</a></p>
+    </div>
+</div>
 
-<p><a href="/services/">Explore our services</a></p>
+   <div class="gallery-column">
+    <section class="splide" aria-label="My Photos">
+      <div class="splide__track">
+        <ul class="splide__list">
+          
+            
+          
+            
+          
+            
+              <li class="splide__slide">
+                <img src="/assets/images/gallery/pic1.jpg" alt="Gallery Image" />
+              </li>
+            
+          
+            
+              <li class="splide__slide">
+                <img src="/assets/images/gallery/pic2.jpg" alt="Gallery Image" />
+              </li>
+            
+          
+            
+              <li class="splide__slide">
+                <img src="/assets/images/gallery/pic3.jpg" alt="Gallery Image" />
+              </li>
+            
+          
+            
+              <li class="splide__slide">
+                <img src="/assets/images/gallery/pic4.jpg" alt="Gallery Image" />
+              </li>
+            
+          
+            
+              <li class="splide__slide">
+                <img src="/assets/images/gallery/pic5.jpg" alt="Gallery Image" />
+              </li>
+            
+          
+            
+          
+            
+          
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
 
 <h3 id="connect-with-us">Connect with us</h3>
 
@@ -49,8 +105,17 @@
   </main>
   <footer>
     <div class="container">
-      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:3dstuff.contact@gmail.com">3dstuff.contact@gmail.com</a></p>
+      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:contact@3dkaarkhana.in">contact@3dkaarkhana.in</a></p>
     </div>
   </footer>
 </body>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    new Splide( '.splide', {
+      type   : 'loop',
+      perPage: 1,
+      autoplay: true,
+    } ).mount();
+  } );
+</script>
 </html>

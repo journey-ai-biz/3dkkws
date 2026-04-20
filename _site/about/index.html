@@ -6,6 +6,8 @@
   <meta name="description" content="Professional 3D printing and rapid prototyping services for startups, engineering, and creative projects." />
   <title>About 3dkaarkhana</title>
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 <body>
   <header class="page-header">
@@ -43,8 +45,17 @@
   </main>
   <footer>
     <div class="container">
-      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:3dstuff.contact@gmail.com">3dstuff.contact@gmail.com</a></p>
+      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:contact@3dkaarkhana.in">contact@3dkaarkhana.in</a></p>
     </div>
   </footer>
 </body>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    new Splide( '.splide', {
+      type   : 'loop',
+      perPage: 1,
+      autoplay: true,
+    } ).mount();
+  } );
+</script>
 </html>

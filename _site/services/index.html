@@ -6,6 +6,8 @@
   <meta name="description" content="Professional 3D printing and rapid prototyping services for startups, engineering, and creative projects." />
   <title>Services</title>
   <link rel="stylesheet" href="/assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
 <body>
   <header class="page-header">
@@ -49,13 +51,22 @@
   <li>Design for additive manufacturing (DfAM) consulting</li>
 </ul>
 
-<p>Ready to get started? Contact us at <a href="mailto:3dstuff.contact@gmail.com">3dstuff.contact@gmail.com</a> or use the email link in the header.</p>
+<p>Ready to get started? Contact us at <a href="mailto:contact@3dkaarkhana.in">contact@3dkaarkhana.in</a> or use the email link in the header.</p>
 
   </main>
   <footer>
     <div class="container">
-      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:3dstuff.contact@gmail.com">3dstuff.contact@gmail.com</a></p>
+      <p>&copy; 2026 3dkaarkhana | Email: <a href="mailto:contact@3dkaarkhana.in">contact@3dkaarkhana.in</a></p>
     </div>
   </footer>
 </body>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    new Splide( '.splide', {
+      type   : 'loop',
+      perPage: 1,
+      autoplay: true,
+    } ).mount();
+  } );
+</script>
 </html>
