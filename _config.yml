@@ -12,6 +12,8 @@ theme: minima
 
 enabled_plugins:
   - jekyll-feed
+  
+google_analytics: "G-X2J1EC0TKK"
 
 collections: {}
 
